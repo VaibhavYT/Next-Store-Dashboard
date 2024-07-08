@@ -57,7 +57,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
       imageUrl: ''
     }
   });
-
+   
   const onSubmit = async (data: BillboardFormValues) => {
     try {
       setLoading(true);
